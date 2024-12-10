@@ -10,7 +10,7 @@ int main() {
         {'2', '9', 't', 'm', 'k'},
     };
 
-    // السؤال 1.1
+    
     printf("matrice[n][m]:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
@@ -35,14 +35,14 @@ int main() {
         printf("\n");
     }
 
-    // السؤال 1.2
-    printf("\nالقطر الرئيسي:\n");
+    
+    printf("\n Main Diagonal:\n");
     for (int i = 0; i < 5; i++) {
         printf("%c ", matrix[i][i]);
     }
-    printf("\nالقطر الثانوي:\n");
+    printf("\n Secondary Diagonal:\n");
     for (int i = 0; i < 5; i++) {
-        printf("%c ", matrix[i][m - i - 1]);
+        printf("%c ", matrix[i][m - i - 1]);   
     }
 
     return 0;
